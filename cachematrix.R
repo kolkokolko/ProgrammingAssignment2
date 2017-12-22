@@ -1,6 +1,3 @@
-rm(a)
-mm=matrix(c(2:5),2,2)
-m=matrix(c(1:4),2,2)
 ## This function creates a special "myMatrix" object that can cache its inverse.
 
 makeCacheMatrix <- function(myMatrix = matrix()) {
